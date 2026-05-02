@@ -15,6 +15,6 @@ This repository contains practical implementations of important React design pat
 
 Go inside any folder:
 
-cd srp-product-search  
+cd Single-Responsiblity 
 npm install  
 npm run dev
