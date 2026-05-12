@@ -21,7 +21,7 @@ function ProductListPresenter({loading,error,productList}) {
   return (
     <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 p-5'>
         {
-            productList.map(product=> (<ProductCard product={product}/>))
+            productList.map(product=> (<ProductCard product={product} key={product.id}/>))
         }
     </div>
   )
